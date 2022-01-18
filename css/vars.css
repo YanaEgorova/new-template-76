@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #fff;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #1c1c1c;
+  --second-brand-color: red;
+  --third-brand-color: #181616;
+  --fourth-brand-color: #c5d6e0;
+
+  --main-font:  'Montserrat';
+  --title-font:  'Montserrat Bold';
+  --main-title-font: 'Libre Baskerville';
+
+  font-size: 62.5%;
+}

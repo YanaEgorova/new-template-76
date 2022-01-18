@@ -1,0 +1,25 @@
+.hero__wrapper { 
+    padding-bottom: 15rem;
+}
+.hero {
+    padding: 15rem 0 0;
+    text-align: center;
+}
+.hero .title {
+    margin-bottom: 2rem;
+}
+.hero .text {
+    margin-bottom: 5rem;
+}
+.text-block {
+    margin-bottom: 7rem;
+}
+.hero-img {
+    display: block;
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+}
+@media screen and (min-width: 1440px) {
+   
+}
