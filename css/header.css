@@ -116,6 +116,13 @@ body.open-menu {
 .nav__item:not(:last-child) {
     margin-bottom: 2rem;  
 }
+
+.header__btn.active span::before, .header__btn.active span::after {
+    background-color: #000;
+}
+.nav__item{
+    color: #000;
+}
 @media screen and (min-width: 1440px) {
     .header {
         padding-bottom: 2rem;
@@ -182,5 +189,8 @@ body.open-menu {
     }
     .cart__span-box {
         margin-right: 30rem;
+    }
+    .nav__item{
+        color: #fff;
     }
 }
