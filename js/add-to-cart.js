@@ -37,8 +37,6 @@ function addToCart(e) {
     let total = parseFloat(e.currentTarget.closest('.js_product').querySelector('.product__price').textContent.trim().substr(1));
     let okay = true;
 
-    console.log('total', total);
-
     getLocalStorageItem().forEach(product => {
        const productTotal = Number((product.quantity * product.price).toFixed(2));
        total = total + productTotal;
@@ -54,16 +52,15 @@ function addToCart(e) {
        }
     })
 
-    // ADD TO LOCAL STORAGE
-    if (okay){
-        if(localStorage(productId) != false) {
-            if(cartSpan) {
-                cartSpan.textContent = Number(cartSpan.textContent) + 1;
-            }
+   // ADD TO LOCAL STORAGE
+   if (okay){
+    if(localStorage(productId) != false) {
+        if(cartSpan) {
+            cartSpan.textContent = Number(cartSpan.textContent) + 1;
         }
-        showSuccessMessage(successMessage, successMessageSpan, name);
     }
-    
+    showSuccessMessage(successMessage, successMessageSpan, name);
+}
 
 }
 
